@@ -1,12 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
-
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <header clasimport React, { Component } from 'react';
 import Buttons from './Buttons.jsx';
 import RoverPosition from './RoverPosition.jsx';
 import './App.css';
@@ -177,7 +169,7 @@ class App extends Component {
 
         <input type="text" placeholder="enter commands here" onChange={this.handleChange} value={this.state.commands}/><br/>
         
-        <Input />
+        {/* <Input /> */}
         <button value="M" onClick={this.go}>GO!</button>
         <button onClick={this.clear} className='secondary'>clear field</button>
         
